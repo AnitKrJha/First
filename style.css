@@ -198,7 +198,8 @@
         gap:3em
     }
     .image{
-        min-width:22rem ;
+        min-width:0em ;
+        max-width: 35em;
        
     }
     .herobuttons,.notimage{
