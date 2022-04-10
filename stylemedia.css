@@ -1,0 +1,77 @@
+@media(min-width:768px) {
+    .navbar {
+        max-width: 768px;
+    }
+    .hero{
+        max-width: 750px;
+        padding: 6em 0em    ;
+    }
+    .img{
+        max-width: 22rem;
+    }
+
+}
+
+@media(min-width:1072px) {
+    .navbar {
+        max-width: 1072px;
+    }
+    .hero{
+        max-width: 1025px;
+    }
+   
+   
+}
+
+@media(min-width:1268px) {
+    .navbar {
+        max-width: 1268px;
+    }
+    .hero{
+        max-width: 1225px;
+    }
+    .img{
+        max-width: 32rem;
+    }
+    
+}
+
+@media(min-width:1571px) {
+    .navbar {
+        max-width: 1571px;
+    }
+    .hero{
+        max-width: 1540px;
+    }
+  
+}
+@media(max-width:768px){
+    .navbar{
+        flex-direction: column;
+        gap: 1.1em;
+
+    }
+    .brand{
+        transform: translateX(-20px);;
+    }
+    .links{
+        margin: auto;
+    }
+    .hero{
+        flex-direction: column;
+        padding: 4em 2em;
+        gap: 2em;
+        align-items: center;
+    }
+    .herobtn{
+        justify-content: center;
+    }
+    
+    .img{
+        max-width: 100%;
+    }
+   
+        .notimage{
+            padding: 0;
+        }
+}
