@@ -59,6 +59,8 @@
     align-items: center;
 }
 .notimage{
+    display: flex;
+    flex-direction: column;
     padding-right: 6em;
 }
 .myheading{
@@ -69,6 +71,7 @@
 }
 .img{
     max-width: 32rem;
+    border-radius: 7px;
 }
 .herobtn{
     display: flex;
